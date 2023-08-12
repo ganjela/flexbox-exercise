@@ -60,6 +60,32 @@ button{
     background-color: #3882F6;
     border: none;
     border-radius: 5px;
-    padding:5px 15px;
+    padding:5px 20px;
     display: block;
+}
+
+.two .title{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.items-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    border: #3882F6 solid;
+    border-radius: 10px;
+}
+
+.item{
+    width: 150px;
+    text-align: center;
 }

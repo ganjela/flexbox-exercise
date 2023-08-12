@@ -31,6 +31,9 @@ li{
     padding: 60px;
     background-color:#1F2937;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
 }
 
 .one div{
@@ -42,7 +45,8 @@ li{
     justify-content: center;
     align-items: center;
     color: white;
-    background-color:#a4a8b0;;
+    background-color:#a4a8b0;
+    height: 250px;
 }
 
 .website-description h1{
@@ -76,6 +80,8 @@ button{
     justify-content: center;
     align-items: center;
     gap:40px;
+    padding-bottom: 80px;
+    flex-wrap: wrap;
 }
 
 .box{
@@ -88,4 +94,25 @@ button{
 .item{
     width: 150px;
     text-align: center;
+}
+
+.three{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 200px;
+    background-color:#E5E7EB;
+}
+
+.author{
+    align-self: flex-end;
+    margin-right: 40px;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+
+.quoute{
+    font-size: 36px;
+    color: #1F2937;
 }

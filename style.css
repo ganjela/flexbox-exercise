@@ -116,3 +116,37 @@ button{
     font-size: 36px;
     color: #1F2937;
 }
+
+.sign-up-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:100px 200px;
+}
+
+.container{
+    display: flex;
+    padding: 50px 100px;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.container button{
+    border: white solid;
+    border-radius: 5px;
+    padding:5px 20px;
+}
+
+.tt-container{
+    width: 500px;
+}
+
+.tt-container .title{
+    color:#F9FAF8;;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.tt-container .text{
+    color: #E5E7EB;
+}

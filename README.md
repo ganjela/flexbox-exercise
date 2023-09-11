@@ -1,1 +1,1 @@
-"# odin-landing-page" 
+"# flexbox exercise from odin project" 
